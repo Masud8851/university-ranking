@@ -1,45 +1,17 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  a:-webkit-any-link {
+}
+a:-webkit-any-link {
     cursor: pointer;
     text-decoration: none;
-  }
-  .breadcrumb-item.active {
+}
+.breadcrumb-item.active {
     color: #6c757d;
-  }
+}
 
-  .social-icon {
-    width: 100%;
-  }
-  
-  .social-icon a {
-    font-size: 22px;
-    text-align: center;
-    width: 45px;
-    color: rgb(25, 129, 133);
-    height: 45px;
-    line-height: 39px;
-    display: inline-block;
-    border-radius: 50%;
-    border: 2px solid #05ff05;
-    /* box-shadow: 0px 0px 0px 1px #ffffff66; */
-    margin: 3px;
-    /* color: #fff; */
-    /* opacity: 0.7; */
-    transition: 0.3s ease-in-out;
-  }
-  
-  .social-icon a:hover {
-    opacity: 0.9;
-    box-shadow: 0px 1px 3px 2px #f30909;
-  }
-  
- 
-
-/* Neeew */
+/* Body */
 body{
     overflow-x: hidden;
 }
