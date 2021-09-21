@@ -5,18 +5,15 @@
 a:any-link {
     cursor: pointer;
     text-decoration: none;
+    z-index: 1;
 }
 .varsityPage{
-  margin-top: 30px;
-  padding: 10px 10px;
-  border-radius: .25rem;
   box-shadow: 8px 8px 8px 5px rgb(224, 224, 224);
 }
 .Banner{
     position: relative;
 }
 .BannerImg{
-    border-radius: 5px;
     max-width: 100%;
 }
 .underImage{
@@ -207,7 +204,7 @@ button.btn.btn-light.btnstudy1:hover {
         font-size: 0.875rem;
     }  
     .features-university{
-        /* display: none; */
+        display: none;
     }
 }
 
@@ -271,4 +268,8 @@ button.btn.btn-light.btnstudy1:hover {
         padding-top: 25px;
         margin: auto;
     }
+}
+
+.row{
+    --bs-gutter-x: 0!important;
 }
