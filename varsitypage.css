@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a:any-link {
+    cursor: pointer;
+    text-decoration: none;
+}
+.varsityPage{
+  margin-top: 30px;
+  padding: 10px 10px;
+  border-radius: .25rem;
+  box-shadow: 8px 8px 8px 5px rgb(224, 224, 224);
+}
+.Banner{
+    position: relative;
+}
+.BannerImg{
+    border-radius: 5px;
+    max-width: 100%;
+}
+.underImage{
+    height: 81px;
+    width: 81px;
+    border: 1px solid #e4e3e5;
+}
+.bannerLogo{
+    position: absolute;
+    margin-top: -44px;
+    margin-left: 19px;
+    z-index: 7;
+    border: 1px solid #e4e3e5;
+}
+.university_details{
+   padding: 60px 16px 12px;
+}
+.logoimage{
+    height: 20px; 
+    width: 20px;
+}
+.university_details h2{
+    color: #0a66c2;
+    padding-bottom: 21px;
+    font-size: 28px;
+    font-family: lato;
+    font-weight: 700;
+}
+.r_design{
+    font-family: lato;
+    font-weight: 300;
+    font-size:14px
+}
+.under_details{
+    display: flex;
+}
+
+/* Status Information Bar */
+.uni_info{
+    padding: 20px;
+    margin: 4px 0 12px ;
+    display: inline-block;
+}
+.uni_info ul {
+    padding: 0;
+    margin: 0;
+}
+.uni_info ul li:first-child {
+    padding-left: 0;
+}
+.uni_info ul li {
+    list-style-type: none;
+    display: inline-block;
+    border-right: 1px solid #e4e3e5;
+    padding: 0 20px;
+    line-height: 20px;
+}
+.uni_info ul li span.info-heading {
+    font-family: lato;
+    font-weight: 300;
+}
+.uni_info ul li span.info-setails {
+    font-family: lato;
+    font-weight: 700;
+}
+.uni_info ul li span {
+    font-size: 14px;
+    display: block;
+}
+.uni_info ul li:last-child {
+    border: none;
+}
+.uni_info_under{
+    float: right;
+    display: flex;
+    
+}
+
+/* Compare & Shortlist Section */
+.compare{
+    padding: 0px 50px 0px 13px;
+}
+.compareimg{
+    margin-top: 3px;
+}
+.faceImg{
+    padding-top: 54px;
+    margin-left: 65%;
+}
+.aboutuni{
+    margin-top: 30px;
+    line-height: 1.8rem;
+    font-size: 17px;
+    font-family: lato;
+}
+.filter_page2{
+    margin-top: 30px;
+    border-bottom: 1px solid grey;
+}
+.btnstudy1{
+    text-transform: uppercase;
+}
+button.btn.btn-light.btnstudy1 {
+    border: 1px solid #ccced1;
+    margin: 0px 0.5rem 0.5rem 0px;
+    padding: 5px 1rem;
+    height: 2.25rem;
+    border-radius: calc(1.125rem);
+    font-size: 0.875rem;
+}
+button.btn.btn-light.btnstudy1:hover {
+    border: 1px solid grey;
+    background-color: rgb(136, 129, 228);
+    color: white;
+}
+
+.program_details{
+    margin-top: 30px;
+    padding: 10px 10px;
+    border-radius: .25rem;
+    box-shadow: 8px 8px 8px 5px rgb(224, 224, 224);
+  }
+ 
+  .middle{
+    margin-top: -35px;
+  }
+  .uniImg{
+    float:left; height: 70px; width: 60px;border: 2px solid #cec5c5;
+  }
+  .uniheader {
+    padding-left: 5px;
+    color: darkcyan;
+    padding-top: 11px;
+}
+.unilocation{
+    float: left; height: 20px;width: 20px; padding-left: 5px;
+}
+.location{
+    margin-left: 15px;
+}
+.programinfo{
+    margin-top:20px;
+}
+.program_info_line{
+    border-top: 1px solid #e4e3e5;
+}
+.uni_info_under_padding{
+    padding-top: 20px;
+} 
+.location_padding{
+    padding-top: 10px;
+    display: flex;
+}
+.location_p{
+    padding-left: 10px;
+}
+
+/* Media Query for Small Devices */
+/** For  Mobile View **/
+@media only screen and (max-width: 480px) {
+    ul{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 5px;
+        row-gap: 10px;
+        padding: 0;
+    }
+    .uni_info ul li {
+        border-right: 0;
+        padding-left: 0;
+        line-height: 25px;
+    }
+    .faceImg{
+        padding-top: 54px;
+        margin-left: 5px;
+    }
+    .filter_page2{
+        display: flex;
+        margin-top: 30px;
+        border-bottom: 1px solid grey;
+    }
+    button.btn.btn-light.btnstudy1 {
+        border: 1px solid #ccced1;
+        margin: 0px 0.5rem 0.5rem 0px;
+        padding: 0 .3rem;
+        height: 2.25rem;
+        border-radius: calc(1.125rem);
+        font-size: 0.875rem;
+    }  
+    .features-university{
+        /* display: none; */
+    }
+}
+
+/* Progress Bar */
+.available{
+    padding-top: 35px;
+}
+.progress_edit{
+    margin-bottom: 21px;
+}
+.search-wrapper {
+    position: relative;
+}
+.search-input {
+    height: calc(2.5em + .75rem + 2px);
+    width: 100%;
+    padding: 10px 10px;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.search-pic1 {
+    position: absolute;
+    margin: 15px 0px 0px -39px;
+    height: 30px;
+    width: 30px;
+}
+.accordionEdit{
+    padding-top: 6px;
+}
