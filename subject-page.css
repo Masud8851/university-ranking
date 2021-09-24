@@ -12,8 +12,8 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: auto;
-    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* Footer */
@@ -44,7 +44,7 @@ main{
 }
 
 /* Media Query */
-@media only screen and (max-width:900px) {
+@media only screen and (max-width:991px) {
     .footer-menu, #footer-small,.social-icon,#social-icon-bar{
         margin-left: 10px;
     }
@@ -54,4 +54,7 @@ main{
         padding-top: 25px;
         margin: auto;
     }
+}
+.row {
+    --bs-gutter-x: 0 !important;
 }
