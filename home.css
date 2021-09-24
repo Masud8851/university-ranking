@@ -43,6 +43,7 @@ body{
     padding-right: 3px;
     align-items: center;
 }
+
 button.btn.btn-light.btnstudy1{
     border: 1px solid #ccced1;
     margin: 0px 0.5rem 0.5rem 0px;
@@ -51,25 +52,31 @@ button.btn.btn-light.btnstudy1{
     border-radius: calc(1.125rem);
     font-size: 0.875rem;
 }
+
 button.btn.btn-light.btnstudy1:hover{
     border: 2px solid grey;
 }
+
 #filter-sort{
     display: none;
 }
+
 #feature-universities{
     /* border: 1px solid green; */
     margin: 5px;
-    box-shadow: 8px 8px 8px 5px rgb(148, 156, 135);
+    box-shadow: 8px 8px 8px 1px rgb(148, 156, 135);
 }
+
 .state{
     align-items: center;
     border-right: 1px solid green;
 }
+
 .state img{
     width: 20px;
     height: 20px;
 }
+
 .state span{
     margin-right: 2px;
 }
