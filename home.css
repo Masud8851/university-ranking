@@ -10,7 +10,9 @@ a:-webkit-any-link {
 .breadcrumb-item.active {
     color: #6c757d;
 }
-
+p{
+    text-align: justify;
+}
 /* Body */
 body{
     overflow-x: hidden;
