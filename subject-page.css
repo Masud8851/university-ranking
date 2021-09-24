@@ -8,6 +8,14 @@ a:any-link{
     text-decoration: none;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: auto;
+    margin: auto;
+}
+
 /* Footer */
 .footer-menu{
     font-size: 15px;
