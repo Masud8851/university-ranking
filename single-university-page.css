@@ -267,7 +267,7 @@ button.btn.btn-light.btnstudy1:hover {
         margin: auto;
     }
     .features-university{
-        /* display: none; */
+        display: none;
     }
 }
 
