@@ -63,7 +63,7 @@ button.btn.btn-light.btnstudy1:hover{
 
 #feature-universities{
     /* border: 1px solid green; */
-    
+    margin: 15px 15px 20px;
     box-shadow: 8px 8px 8px 1px rgb(148, 156, 135);
 }
 
@@ -83,7 +83,9 @@ button.btn.btn-light.btnstudy1:hover{
 
 /* Pagination */
 #pagination{
-    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 /* Footer */
