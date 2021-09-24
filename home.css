@@ -63,7 +63,7 @@ button.btn.btn-light.btnstudy1:hover{
 
 #feature-universities{
     /* border: 1px solid green; */
-    margin: 5px;
+    
     box-shadow: 8px 8px 8px 1px rgb(148, 156, 135);
 }
 
@@ -81,6 +81,10 @@ button.btn.btn-light.btnstudy1:hover{
     margin-right: 2px;
 }
 
+/* Pagination */
+#pagination{
+    margin: auto;
+}
 
 /* Footer */
 .footer-menu{
@@ -141,7 +145,11 @@ button.btn.btn-light.btnstudy1:hover{
         --bs-gutter-x:0 !important;
     }
     #feature-universities{
-        margin: 20px;
+        /* margin: 20px; */
+        margin-top: 15px;
+        margin-bottom: 25px;
+        margin-left: 5px;
+        margin-right: 5px;
         border: 1px solid green;
     }
     #social-icon-bar{
