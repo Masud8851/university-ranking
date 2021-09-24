@@ -17,6 +17,10 @@ p{
 body{
     overflow-x: hidden;
 }
+.main-body{
+    padding-left: 5px;
+    padding-right: 5px;
+}
 #rank-School{
     border: 1px solid green;
     padding: 10px;
