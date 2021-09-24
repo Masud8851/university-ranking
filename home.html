@@ -72,322 +72,320 @@
                 </ol>
             </nav>
         
-        <!-- Header Brief -->
-        <h1 class="fw-bold fs-1 ps-2 pe-2">2021 Best Global Universities Rankings</h1>
-        <p class="fs-5 ps-2 pe-2">
-            These institutions from the U.S. and more than 80 other countries have been
-            ranked based on 13 indicators that measure their academic research performance and their global and regional reputations. Students can use these rankings to explore the higher education options that exist beyond their own
-            countries' borders and to compare key aspects of schools' research missions. These are the world's nearly 1,500 top universities. <a href="" class="text-primary">Read the methodology »</a> <br />
-            To unlock more data and access tools to help you get into your dream school, sign up for the <a href="" class="text-primary">U.S. News College Compass</a>!
-        </p>
-
-        <!-- Summary -->
-        <div class="w-75" id="topExample">
-            <h2 id="topUniversities">
-                <button class="accordion-button w-25 bg-white shadow-none text-dark fw-bold ps-2" type="button" data-bs-toggle="collapse" data-bs-target="#topUniversity" aria-expanded="true" aria-controls="collapseOne">Summary</button>
-            </h2>
-            <div id="topUniversity" class="accordion-collapse collapse" aria-labelledby="topUniversities" data-bs-parent="#topExample">
-                <div class="accordion-body">
-                    <h4>Here are the best global universities</h4>
-                    <!-- Top 10 Universities -->
-                    <a href="">Harvard University</a> <br />
-                    <a href="">Harvard University</a> <br />
-                    <a href="">Harvard University</a> <br />
-                    <a href="">Harvard University</a> <br />
-                    <a href="">Harvard University</a> <br />
-                    <a href="">Harvard University</a> <br />
-                    <a href="">Harvard University</a> <br />
-                    <a href="">Harvard University</a> <br />
-                    <a href="">Harvard University</a> <br />
-                    <a href="">Harvard University</a>
+            <!-- Header Brief -->
+            <h1 class="fw-bold fs-1 ps-2 pe-2">2021 Best Global Universities Rankings</h1>
+            <p class="fs-5 ps-2 pe-2">
+                These institutions from the U.S. and more than 80 other countries have been ranked based on 13 indicators that measure their academic research performance and their global and regional reputations. Students can use these rankings to
+                explore the higher education options that exist beyond their own countries' borders and to compare key aspects of schools' research missions. These are the world's nearly 1,500 top universities.
+                <a href="" class="text-primary">Read the methodology »</a> <br />
+                To unlock more data and access tools to help you get into your dream school, sign up for the <a href="" class="text-primary">U.S. News College Compass</a>!
+            </p>
+        
+            <!-- Summary -->
+            <div class="w-75" id="topExample">
+                <h2 id="topUniversities">
+                    <button class="accordion-button w-25 bg-white shadow-none text-dark fw-bold ps-2" type="button" data-bs-toggle="collapse" data-bs-target="#topUniversity" aria-expanded="true" aria-controls="collapseOne">Summary</button>
+                </h2>
+                <div id="topUniversity" class="accordion-collapse collapse" aria-labelledby="topUniversities" data-bs-parent="#topExample">
+                    <div class="accordion-body">
+                        <h4>Here are the best global universities</h4>
+                        <!-- Top 10 Universities -->
+                        <a href="">Harvard University</a> <br />
+                        <a href="">Harvard University</a> <br />
+                        <a href="">Harvard University</a> <br />
+                        <a href="">Harvard University</a> <br />
+                        <a href="">Harvard University</a> <br />
+                        <a href="">Harvard University</a> <br />
+                        <a href="">Harvard University</a> <br />
+                        <a href="">Harvard University</a> <br />
+                        <a href="">Harvard University</a> <br />
+                        <a href="">Harvard University</a>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <!-- Total Schools and Rank By -->
-        <div class="ps-2 pe-2" id="rank-School">
-            <div><h6>1678 Schools</h6></div>
-            <span id="rankScale"> </span>
-            <div id="sortBy">
-                <div class="me-2"><h6>Short By: </h6></div>
-                <div><select class="form-select" aria-label="Default select example" style="font-size: 9px;">
-                    <option selected>Rankings (high to low)</option>
-                    <option value="1">Rankings (low to high)</option>
-                    <option value="2">Alphabetically (A-Z)</option>
-                    <option value="3">Alphabetically (Z-A)</option>
-                    <option value="4">Enrollment (high to low)</option>
-                </select></div>
-            </div>
-            
-            <div id="filter-sort">
-                <div>
-                    <button id="filter-btn" type="button" class="btn btn-primary me-2" data-bs-toggle="modal" data-bs-target="#exampleModal"  onclick="filter()">Filter</button>
-                    <!-- OnClick Filter -->
-                    <script>
-                        const filter =()=> {
-                            document.getElementById('left-according').style.display='flex';
-                            document.getElementById('left-according').style.flexDirection='column';   
-                        }
-                    </script>
+        
+            <!-- Total Schools and Rank By -->
+            <div class="ps-2 pe-2" id="rank-School">
+                <div><h6>1678 Schools</h6></div>
+                <span id="rankScale"> </span>
+                <div id="sortBy">
+                    <div class="me-2"><h6>Short By:</h6></div>
+                    <div>
+                        <select class="form-select" aria-label="Default select example" style="font-size: 9px;">
+                            <option selected>Rankings (high to low)</option>
+                            <option value="1">Rankings (low to high)</option>
+                            <option value="2">Alphabetically (A-Z)</option>
+                            <option value="3">Alphabetically (Z-A)</option>
+                            <option value="4">Enrollment (high to low)</option>
+                        </select>
+                    </div>
                 </div>
-
-                <div>
-                    <button id="sort-btn" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2" >Sort</button>
-                </div>
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">SORT SCHOOLS</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <button style="font-size: 14px; background-color: rgb(31, 70, 143); border-radius: 5px; color: cornsilk; width: 100px; margin-left: 12px; margin-top: 10px; height: auto;">View Matches</button>
-                            
-                            <!-- Choice options -->
-                            <div class="modal-body">
-                                <form >
-                                    <input type="radio" name="choice" value="hToL" id="choice-low"> 
-                                    <label for="choice-yes">Ranking (hight to low)</label> <br>
-
-                                    <input type="radio" name="choice" value="lToH" id="choice-high"> 
-                                    <label for="choice-yes">Ranking (low to high)</label> <br>
-
-                                    <input type="radio" name="choice" value="a2z" id="choice-a2z"> 
-                                    <label for="choice-yes">Alphabetically (A-Z)</label> <br>
-
-                                    <input type="radio" name="choice" value="z2a" id="choice-z2a"> 
-                                    <label for="choice-yes">Alphabetically (Z-A)</label> <br>
-
-                                    <input type="radio" name="choice" value="lToH" id="choice-enrollment"> 
-                                    <label for="choice-yes">Enrollment (hight to low)</label>
-                                </form>
+        
+                <div id="filter-sort">
+                    <div>
+                        <button id="filter-btn" type="button" class="btn btn-primary me-2" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="filter()">Filter</button>
+                        <!-- OnClick Filter -->
+                        <script>
+                            const filter = () => {
+                                document.getElementById("left-according").style.display = "flex";
+                                document.getElementById("left-according").style.flexDirection = "column";
+                            };
+                        </script>
+                    </div>
+                    <div>
+                        <button id="sort-btn" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">Sort</button>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">SORT SCHOOLS</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <button style="font-size: 14px; background-color: rgb(31, 70, 143); border-radius: 5px; color: cornsilk; width: 100px; margin-left: 12px; margin-top: 10px; height: auto;">View Matches</button>
+        
+                                <!-- Choice options -->
+                                <div class="modal-body">
+                                    <form>
+                                        <input type="radio" name="choice" value="hToL" id="choice-low" />
+                                        <label for="choice-yes">Ranking (hight to low)</label> <br />
+        
+                                        <input type="radio" name="choice" value="lToH" id="choice-high" />
+                                        <label for="choice-yes">Ranking (low to high)</label> <br />
+        
+                                        <input type="radio" name="choice" value="a2z" id="choice-a2z" />
+                                        <label for="choice-yes">Alphabetically (A-Z)</label> <br />
+        
+                                        <input type="radio" name="choice" value="z2a" id="choice-z2a" />
+                                        <label for="choice-yes">Alphabetically (Z-A)</label> <br />
+        
+                                        <input type="radio" name="choice" value="lToH" id="choice-enrollment" />
+                                        <label for="choice-yes">Enrollment (hight to low)</label>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-     
-        <!-- Features Area -->
-        <div class="ps-2 pe-2 features-area">
-            <div class="row">
-                <!--Left According-->
-                <div class="col-lg-2" id="left-according">
-                    <div>
-                        <div class="accordion" id="accordionExample">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        School Name
-                                    </button>
-                                </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                    <div class="input_placeholder">
-                                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="School Name" />
+        
+            <!-- Features Area -->
+            <div class="ps-2 pe-2 features-area">
+                <div class="row">
+                    <!--Left According-->
+                    <div class="col-lg-2" id="left-according">
+                        <div>
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            School Name
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="input_placeholder">
+                                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="School Name" />
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            Region
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="input_placeholder">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Select Region</option>
+                                                <option value="1">Africa</option>
+                                                <option value="2">Asia</option>
+                                                <option value="3">Australia/New Zealand</option>
+                                                <option value="4">Europe</option>
+                                                <option value="5">Latin America</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            Country/Region
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="input_placeholder">
+                                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Type to Select" />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-
+                        </div>
+        
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
                             <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Region
+                                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                        City
                                     </button>
                                 </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                    <div class="input_placeholder">
-                                        <select class="form-select" aria-label="Default select example">
-                                            <option selected>Select Region</option>
-                                            <option value="1">Africa</option>
-                                            <option value="2">Asia</option>
-                                            <option value="3">Australia/New Zealand</option>
-                                            <option value="4">Europe</option>
-                                            <option value="5">Latin America</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Country/Region
-                                    </button>
-                                </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                                     <div class="input_placeholder">
                                         <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Type to Select" />
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion" id="accordionPanelsStayOpenExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                                    City
-                                </button>
-                            </h2>
-                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                                <div class="input_placeholder">
-                                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Type to Select" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                                    Enrollment
-                                </button>
-                            </h2>
-                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                                <div class="input_placeholder">
-                                    <label for="customRange1" class="form-label" style="margin-left: 10px;">0-40000+</label>
-                                    <input type="range" class="form-range" id="customRange1" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Features Countries -->
-                <div class="col-lg-10" id="features-area">
-                    <div class="filter_page2">
-                        <p style="padding-left: 5px; font-weight: 700;">FEATURED COUNTRIES:</p>
-                        <button type="button" class="btn btn-light btnstudy1">Canada</button>
-                        <button type="button" class="btn btn-light btnstudy1">China</button>
-                        <button type="button" class="btn btn-light btnstudy1">France</button>
-                        <button type="button" class="btn btn-light btnstudy1">Germany</button>
-                        <button type="button" class="btn btn-light btnstudy1">India</button>
-                        <button type="button" class="btn btn-light btnstudy1">Italy</button>
-                        <button type="button" class="btn btn-light btnstudy1">Japan</button>
-                        <button type="button" class="btn btn-light btnstudy1">Netherlands</button>
-                    </div>
-                    <!-- Feature Universities  -->
-                    <div class="row p-3" id="feature-universities">
-                        <div class="col-lg-4 uniImage">
-                            <img src="img/imageuniversity1.jpg" class="w-100">
-                        </div>
-                        <div class="col-lg-6 state pt-4" id="university">
-                            <div>
-                                <h3><a href="#">Harvard University</a></h3>
-                                <div class="d-flex">
-                                    <img src="img/USA.svg"/>
-                                    <div class="d-flex ps-2">
-                                        <span>United States</span>
-                                        <span>|</span>
-                                        <span>Cambridge (U.S.)</span>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                        Enrollment
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                    <div class="input_placeholder">
+                                        <label for="customRange1" class="form-label" style="margin-left: 10px;">0-40000+</label>
+                                        <input type="range" class="form-range" id="customRange1" />
                                     </div>
                                 </div>
                             </div>
-                            <div class="d-flex">
-                                <img src="img/mini-badge-color.svg">
-                                <div class="d-flex ps-2">
-                                    <strong>#1</strong>
-                                    <p>in</p>
-                                    <strong>Best Global Universities</strong>
-                                </div>
-                            </div>
-                            <a href="">Read More >>></a>
-                            
-                        </div>
-                        <div class="col-lg-2 d-flex flex-column pt-3 globalScore" id="globalScore">
-                            <h6>GLOBAL SCORE</h6>
-                            <strong>100.0</strong>
                         </div>
                     </div>
-                    <div class="row p-3" id="feature-universities">
-                        <div class="col-lg-4 uniImage">
-                            <img src="img/imageuniversity1.jpg" class="w-100">
+        
+                    <!-- Features Countries -->
+                    <div class="col-lg-10" id="features-area">
+                        <div class="filter_page2">
+                            <p style="padding-left: 5px; font-weight: 700;">FEATURED COUNTRIES:</p>
+                            <button type="button" class="btn btn-light btnstudy1">Canada</button>
+                            <button type="button" class="btn btn-light btnstudy1">China</button>
+                            <button type="button" class="btn btn-light btnstudy1">France</button>
+                            <button type="button" class="btn btn-light btnstudy1">Germany</button>
+                            <button type="button" class="btn btn-light btnstudy1">India</button>
+                            <button type="button" class="btn btn-light btnstudy1">Italy</button>
+                            <button type="button" class="btn btn-light btnstudy1">Japan</button>
+                            <button type="button" class="btn btn-light btnstudy1">Netherlands</button>
                         </div>
-                        <div class="col-lg-6 state pt-4" id="university">
-                            <div>
-                                <h3><a href="#">Harvard University</a></h3>
-                                <div class="d-flex">
-                                    <img src="img/USA.svg"/>
-                                    <div class="d-flex ps-2">
-                                        <span>United States</span>
-                                        <span>|</span>
-                                        <span>Cambridge (U.S.)</span>
+                        <!-- Feature Universities  -->
+                        <div class="row p-3" id="feature-universities">
+                            <div class="col-lg-4 uniImage">
+                                <img src="img/imageuniversity1.jpg" class="w-100" />
+                            </div>
+                            <div class="col-lg-6 state pt-4" id="university">
+                                <div>
+                                    <h3><a href="#">Harvard University</a></h3>
+                                    <div class="d-flex">
+                                        <img src="img/USA.svg" />
+                                        <div class="d-flex ps-2">
+                                            <span>United States</span>
+                                            <span>|</span>
+                                            <span>Cambridge (U.S.)</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="d-flex">
-                                <img src="img/mini-badge-color.svg">
-                                <div class="d-flex ps-2">
-                                    <strong>#1</strong>
-                                    <p>in</p>
-                                    <strong>Best Global Universities</strong>
-                                </div>
-                            </div>
-                            <a href="">Read More >>></a>
-                            
-                        </div>
-                        <div class="col-lg-2 d-flex flex-column pt-3" id="globalScore">
-                            <h6>GLOBAL SCORE</h6>
-                            <strong>100.0</strong>
-                        </div>
-                    </div>
-                    <div class="row p-3" id="feature-universities">
-                        <div class="col-lg-4 uniImage">
-                            <img src="img/imageuniversity1.jpg" class="w-100">
-                        </div>
-                        <div class="col-lg-6 state pt-4" id="university">
-                            <div>
-                                <h3><a href="#">Harvard University</a></h3>
                                 <div class="d-flex">
-                                    <img src="img/USA.svg"/>
+                                    <img src="img/mini-badge-color.svg" />
                                     <div class="d-flex ps-2">
-                                        <span>United States</span>
-                                        <span>|</span>
-                                        <span>Cambridge (U.S.)</span>
+                                        <strong>#1</strong>
+                                        <p>in</p>
+                                        <strong>Best Global Universities</strong>
                                     </div>
                                 </div>
+                                <a href="">Read More >>></a>
                             </div>
-                            <div class="d-flex">
-                                <img src="img/mini-badge-color.svg">
-                                <div class="d-flex ps-2">
-                                    <strong>#1</strong>
-                                    <p>in</p>
-                                    <strong>Best Global Universities</strong>
+                            <div class="col-lg-2 d-flex flex-column pt-3 globalScore" id="globalScore">
+                                <h6>GLOBAL SCORE</h6>
+                                <strong>100.0</strong>
+                            </div>
+                        </div>
+                        <div class="row p-3" id="feature-universities">
+                            <div class="col-lg-4 uniImage">
+                                <img src="img/imageuniversity1.jpg" class="w-100" />
+                            </div>
+                            <div class="col-lg-6 state pt-4" id="university">
+                                <div>
+                                    <h3><a href="#">Harvard University</a></h3>
+                                    <div class="d-flex">
+                                        <img src="img/USA.svg" />
+                                        <div class="d-flex ps-2">
+                                            <span>United States</span>
+                                            <span>|</span>
+                                            <span>Cambridge (U.S.)</span>
+                                        </div>
+                                    </div>
                                 </div>
+                                <div class="d-flex">
+                                    <img src="img/mini-badge-color.svg" />
+                                    <div class="d-flex ps-2">
+                                        <strong>#1</strong>
+                                        <p>in</p>
+                                        <strong>Best Global Universities</strong>
+                                    </div>
+                                </div>
+                                <a href="">Read More >>></a>
                             </div>
-                            <a href="">Read More >>></a>
-                            
+                            <div class="col-lg-2 d-flex flex-column pt-3" id="globalScore">
+                                <h6>GLOBAL SCORE</h6>
+                                <strong>100.0</strong>
+                            </div>
                         </div>
-                        <div class="col-lg-2 d-flex flex-column pt-3" id="globalScore">
-                            <h6>GLOBAL SCORE</h6>
-                            <strong>100.0</strong>
+                        <div class="row p-3" id="feature-universities">
+                            <div class="col-lg-4 uniImage">
+                                <img src="img/imageuniversity1.jpg" class="w-100" />
+                            </div>
+                            <div class="col-lg-6 state pt-4" id="university">
+                                <div>
+                                    <h3><a href="#">Harvard University</a></h3>
+                                    <div class="d-flex">
+                                        <img src="img/USA.svg" />
+                                        <div class="d-flex ps-2">
+                                            <span>United States</span>
+                                            <span>|</span>
+                                            <span>Cambridge (U.S.)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex">
+                                    <img src="img/mini-badge-color.svg" />
+                                    <div class="d-flex ps-2">
+                                        <strong>#1</strong>
+                                        <p>in</p>
+                                        <strong>Best Global Universities</strong>
+                                    </div>
+                                </div>
+                                <a href="">Read More >>></a>
+                            </div>
+                            <div class="col-lg-2 d-flex flex-column pt-3" id="globalScore">
+                                <h6>GLOBAL SCORE</h6>
+                                <strong>100.0</strong>
+                            </div>
                         </div>
+        
+                        <script></script>
                     </div>
-                    
-                    <script>
-                    </script>
                 </div>
             </div>
-        </div>
         </main>
+        
 
         <!-- Footer -->
         <footer class="bg-dark">
-            <div class="row container ms-2 pt-4 pb-5 gx-5">
+            <div class="row container pt-4 pb-5">
                 <div class="col-lg-8">
-                    <div>
+                    <div class="ms-4">
                         <a href="#" class="footer-menu" >ABOUT</a>
                         <a href="#" class="footer-menu" >CONTACT</a>
                         <a href="#" class="footer-menu" >PRIVACY</a>
                         <a href="#" class="footer-menu" >USERS</a>
                         <a href="#" class="footer-menu" >COOKIES</a>
                     </div>
-                    <div class="mt-4">
+                    <div class="mt-4 ms-4">
                         <small id="footer-small">© QS Quacquarelli Symonds Limited 1994 - 2021.     All rights reserved. </small>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <!-- Social Icons -->
-                    <div id="social-icon-bar">
+                    <div id="social-icon-bar" class="ms-3">
                         <div >
                             <a href="#" target="_blank"><img src="img/footer/facebook.png"  class="social-icon"></a>
                         </div>

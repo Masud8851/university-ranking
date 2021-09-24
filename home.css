@@ -20,6 +20,7 @@ body{
 .main-body{
     padding-left: 5px;
     padding-right: 5px;
+    overflow: hidden;
 }
 #rank-School{
     border: 1px solid green;
@@ -58,7 +59,7 @@ button.btn.btn-light.btnstudy1:hover{
 }
 #feature-universities{
     /* border: 1px solid green; */
-    margin: 15px;
+    margin: 5px;
     box-shadow: 8px 8px 8px 5px rgb(148, 156, 135);
 }
 .state{
@@ -72,7 +73,35 @@ button.btn.btn-light.btnstudy1:hover{
 .state span{
     margin-right: 2px;
 }
-@media only screen and (max-width:769px) {
+
+
+/* Footer */
+.footer-menu{
+    font-size: 15px;
+    font-weight: 450px;
+    margin-right: 15px;
+    color: whitesmoke;
+}
+#footer-small{  
+    color: white;
+    margin: auto;
+}
+.social-icon {
+    width: 40px;
+    background-color: whitesmoke;
+    border-radius: 100px;
+    border: 1px solid whitesmoke;
+    margin: 0 10px;
+}
+#social-icon-bar{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin: 0;
+}
+
+/* Media Query */
+
+@media only screen and (max-width:991px) {
     #sortBy{
         display: none;
     }
@@ -107,39 +136,11 @@ button.btn.btn-light.btnstudy1:hover{
     #feature-universities{
         margin: 20px;
         border: 1px solid green;
-    }  
-    
-}
-
-/* Footer */
-.footer-menu{
-    font-size: 15px;
-    font-weight: 450px;
-    margin-right: 15px;
-    color: whitesmoke;
-}
-#footer-small{  
-    color: white;
-    margin: auto;
-}
-.social-icon {
-    width: 40px;
-    background-color: whitesmoke;
-    border-radius: 100px;
-    border: 1px solid whitesmoke;
-    margin: 0 10px;
-}
-#social-icon-bar{
-    display: grid;
-    grid-template-columns: repeat(6,1fr);
-    margin: 0;
-}
-@media only screen and (max-width:900px) {
+    }
     #social-icon-bar{
         display: flex;
         flex-direction: row;
         padding-top: 25px;
-        margin: auto;
-    }
+    }  
+    
 }
-
