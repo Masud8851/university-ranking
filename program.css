@@ -56,6 +56,12 @@ main{
     margin-left: 30px;
 }
 
+/* Program */
+.program-row{
+    border: 1px solid green;
+}
+
+
 /* Media Query */
 @media only screen and (max-width:991px) {
     .footer-menu, #footer-small,.social-icon,#social-icon-bar{
@@ -66,6 +72,9 @@ main{
         flex-direction: row;
         padding-top: 25px;
         margin: auto;
+    }
+    #title{
+        display: none;
     }
 }
 .row {
