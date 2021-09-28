@@ -1,247 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="single-university-page.css">
-    <title>Single University</title>
-    <!-- CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
- 
-</head>
-<body>
-    <!-- Nav -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="img/logo.svg" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Ranking</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Discover</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"  data-bs-toggle="dropdown" aria-expanded="false">
-                      Events
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" tabindex="-1">PREPARE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">APPLY</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">CAREERS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">COMMUNITY</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search"   aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-          </div>
-        </div>
-    </nav>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="single-university-page.css" />
+		<title>Single University</title>
+		<!-- CDN -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body>
+		<!-- Nav -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"><img src="img/logo.svg" alt="" /></a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#"
+								>Ranking</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Discover</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								id="navbarDropdown"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								Events
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="#">Action</a></li>
+								<li><a class="dropdown-item" href="#">Another action</a></li>
+								<li><hr class="dropdown-divider" /></li>
+								<li>
+									<a class="dropdown-item" href="#">Something else here</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#" tabindex="-1">PREPARE</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">APPLY</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">CAREERS</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">COMMUNITY</a>
+						</li>
+					</ul>
+					<form class="d-flex">
+						<input
+							class="form-control me-2"
+							type="search"
+							placeholder="Search"
+							aria-label="Search"
+						/>
+						<button class="btn btn-outline-success" type="submit">
+							Search
+						</button>
+					</form>
+				</div>
+			</div>
+		</nav>
 
-    <!-- Banner Container -->
-    <div class="Banner">
-        <img class="BannerImg w-100" src="img/Thammasat-University.png" alt=""/>
-    </div>
-    
-    <main class="row gx-3">
-        <div class="col-lg-9">
-            <div>
-                <div class="bannerLogo">
-                    <img class="underImage" src="img/thammasat-university_logo.png" alt=""/>
-                </div>
-        
-                <div class="university_details">
-                    <a href="#" target="_blank"><h2>Thammasat University</h2></a>
-        
-                    <p>
-                        <img src="img/location.png" class="logoimage" alt=""/>
-                        <span style="padding-left: 10px;">Tha Prachan Campus, Bangkok Thailand</span>
-                    </p>
-        
-                    <p class="r_design">QS World University Rankings</p>
-        
-                    <p>
-                        <img src="img/rank1.png" class="logoimage" alt=""/>
-                        <span style="padding-left: 10px; font-weight: 700;">601-650</span>
-                    </p>
-        
-                    <div class="uni_info">
-                        <ul>
-                            <li title="Status">
-                                <span class="info-heading">Status</span>
-                                <span class="info-setails">Private</span>
-                            </li>
-                            <li title="Research Output">
-                                <span class="info-heading">Research Output</span>
-                                <span class="info-setails">Very High</span>
-                            </li>
-                            <li title="Student/Faculty Ratio">
-                                <span class="info-heading">Student/Faculty Ratio</span>
-                                <span class="info-setails">4</span>
-                            </li>
-                            <li title="International Students">
-                                <span class="info-heading">International Students</span>
-                                <span class="info-setails">3,730</span>
-                            </li>
-                            <li title="Size">
-                                <span class="info-heading">Size</span>
-                                <span class="info-setails">M</span>
-                            </li>
-                            <li title="Total Faculty">
-                                <span class="info-heading">Total Faculty</span>
-                                <span class="info-setails">3,065</span>
-                            </li>
-                        </ul>
-                    </div>
-        
-                    <hr />
-        
-                    <div class="uni_info_under">
-                        <img class="logoimage compareimg" src="img/plus.png" alt=""/>
-                        <p class="compare">Compare</p>
-                    </div>
-                </div>
-            </div>
+		<!-- Banner Container -->
+		<div class="Banner">
+			<img class="BannerImg w-100" src="img/Thammasat-University.png" alt="" />
+		</div>
 
-            <!-- Button List -->
-            <div class="filter_page2 p-3">
-                <button type="button" class="btn btn-light btnstudy1">Overview</button>
-                <button type="button" class="btn btn-light btnstudy1">Subject list</button>
-                <button type="button" class="btn btn-light btnstudy1">Masters</button>
-                <button type="button" class="btn btn-light btnstudy1">More</button>
-            </div>
+		<main class="row gx-3">
+			<div class="col-lg-9">
+				<div>
+					<div class="bannerLogo">
+						<img
+							class="underImage"
+							src="img/thammasat-university_logo.png"
+							alt=""
+						/>
+					</div>
 
-            <!-- University About -->
-            <div class="aboutuni p-3">
-                <h2>About</h2>
-                <p> <a href="#">Thammasat University</a> is the second oldest, leading comprehensive university in Thailand. Inaugurated in 1934 with social science and humanities to serve society’s thirst for modern knowledge. Thammasat, thus, has been known as “the   university for the people”.
-                
-                From the mid-1980s, TU has expanded to cover most disciplines, including science, technology, and health, so as to contribute more to society. Apart from teaching, Thammasat is an internationallyrenowned university, which emphasizes research and innovation. With the vision “Grooming the nextgeneration of leaders for Thailand and international communities”, Thammasat is bringing together students of all backgrounds to maximize their potential and be capable, innovative, caring and want to serve society. Through our multi-dimensional education, Thammasat has produced graduates with high skills, knowledge and adaptability, making Thammasat the university with highest employability rate and high employers’ satisfaction in Thailand. 
-                
-                Additional requirements include letters of recommendation from two teachers (one math/science, one humanities), plus extra...</p>
-                <a style=" color: #0a66c2;">Read More</a>
-            </div> 
-          
-                
+					<div class="university_details">
+						<a href="#" target="_blank"><h2>Thammasat University</h2></a>
 
-            <!--Available Program Start-->
-            <div class="available p-3 row">
-                <h2>Available Programs</h2>
-                <p style="font-weight: bold;">MBA</p>
-                <div class="progress progress_edit">
-                    <div class="progress-bar" role="progressbar" style="width: 5%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <div class="search-wrapper d-inline">
-                    <input style="font-size: larger;" class="search-input searchedit" placeholder="Search courses, subjects, etc." />
-                    <img class="search-pic1" src="img/search.jpg" alt=""/>
-                </div>
-            
-                <div class="accordion accordionEdit" id="accordionExample">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                <strong>Others(1)</strong>
-                            </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <a href="#" style="color: darkcyan; text-decoration: none;">Executive MBA</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+						<p>
+							<img src="img/location.png" class="logoimage" alt="" />
+							<span style="padding-left: 10px"
+								>Tha Prachan Campus, Bangkok Thailand</span
+							>
+						</p>
 
-                       
-        </div>
+						<p class="r_design">QS World University Rankings</p>
 
-        <div class="col-lg-3 bg-warning">
-            <!-- Add Section -->
-            <div class="m-3 bg-secondary">
-                <h1>ADD is an older term for what is now known as the inattentive type of ADHD.</h1>
-            </div>
-        </div>
-    </main> 
-         
-    
-    
-    <!-- Pagination -->
-    <nav aria-label="..." id="pagination">
-        <ul class="pagination">
-            <li class="page-item disabled">
-              <a class="page-link" href="#" tabindex="-1">Previous</a>
-            </li>
-            <li class="page-item active"><a class="page-link" href="#">1</a></li>
-            <li class="page-item" aria-current="page">
-              <a class="page-link" href="#">2</a>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item">
-              <a class="page-link" href="#">Next</a>
-            </li>
-        </ul>
-    </nav>
-        
+						<p>
+							<img src="img/rank1.png" class="logoimage" alt="" />
+							<span style="padding-left: 10px; font-weight: 700">601-650</span>
+						</p>
 
-    <!-- Footer -->
-    <footer class="bg-dark">
-        <div class="row ms-3 pt-4 pb-5 gx-0">
-            <div class="col-lg-8">
-                <div>
-                    <a href="#" class="footer-menu" >ABOUT</a>
-                    <a href="#" class="footer-menu" >CONTACT</a>
-                    <a href="#" class="footer-menu" >PRIVACY</a>
-                    <a href="#" class="footer-menu" >USERS</a>
-                    <a href="#" class="footer-menu" >COOKIES</a>
-                </div>
-                <div class="mt-4">
-                    <small id="footer-small">© QS Quacquarelli Symonds Limited 1994 - 2021. All rights reserved. </small>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <!-- Social Icons -->
-                <div id="social-icon-bar">
-                    <div >
-                        <a href="" target="_blank"><img src="img/footer/facebook.png" class="social-icon" alt=""></a>
-                    </div>
-                    <div >
-                        <a href="" target="_blank"><img src="img/footer/twitter.png" class="social-icon" alt=""></a>
-                    </div>
-                    <div >
-                        <a href="#" target="_blank"><img src="img/footer/linkedin.png" class="social-icon" alt=""></a>
-                    </div>
-                    <div >
-                        <a href="#" target="_blank"><img src="img/footer/youtube.png" class="social-icon" alt=""></a>
-                    </div>
-                    <div >
-                        <a href="#" target="_blank"><img src="img/footer/instagram.png" class="social-icon" alt=""></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+						<div class="uni_info">
+							<ul>
+								<li title="Status">
+									<span class="info-heading">Status</span>
+									<span class="info-setails">Private</span>
+								</li>
+								<li title="Research Output">
+									<span class="info-heading">Research Output</span>
+									<span class="info-setails">Very High</span>
+								</li>
+								<li title="Student/Faculty Ratio">
+									<span class="info-heading">Student/Faculty Ratio</span>
+									<span class="info-setails">4</span>
+								</li>
+								<li title="International Students">
+									<span class="info-heading">International Students</span>
+									<span class="info-setails">3,730</span>
+								</li>
+								<li title="Size">
+									<span class="info-heading">Size</span>
+									<span class="info-setails">M</span>
+								</li>
+								<li title="Total Faculty">
+									<span class="info-heading">Total Faculty</span>
+									<span class="info-setails">3,065</span>
+								</li>
+							</ul>
+						</div>
+
+						<hr />
+
+						<div class="uni_info_under">
+							<img class="logoimage compareimg" src="img/plus.png" alt="" />
+							<p class="compare">Compare</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Button List -->
+				<div class="filter_page2 p-3">
+					<button type="button" class="btn btn-light btnstudy1">
+						All Programs
+					</button>
+					<button type="button" class="btn btn-light btnstudy1">
+						Bachelor
+					</button>
+					<button type="button" class="btn btn-light btnstudy1">Masters</button>
+					<button type="button" class="btn btn-light btnstudy1">PhD</button>
+				</div>
+
+				<!-- University About -->
+				<div class="aboutuni p-3">
+					<h2>About</h2>
+					<p>
+						<a href="#">Thammasat University</a> is the second oldest, leading
+						comprehensive university in Thailand. Inaugurated in 1934 with
+						social science and humanities to serve society’s thirst for modern
+						knowledge. Thammasat, thus, has been known as “the university for
+						the people”. From the mid-1980s, TU has expanded to cover most
+						disciplines, including science, technology, and health, so as to
+						contribute more to society. Apart from teaching, Thammasat is an
+						internationallyrenowned university, which emphasizes research and
+						innovation. With the vision “Grooming the nextgeneration of leaders
+						for Thailand and international communities”, Thammasat is bringing
+						together students of all backgrounds to maximize their potential and
+						be capable, innovative, caring and want to serve society. Through
+						our multi-dimensional education, Thammasat has produced graduates
+						with high skills, knowledge and adaptability, making Thammasat the
+						university with highest employability rate and high employers’
+						satisfaction in Thailand. Additional requirements include letters of
+						recommendation from two teachers (one math/science, one humanities),
+						plus extra...
+					</p>
+					<a style="color: #0a66c2">Read More</a>
+				</div>
+
+				<!--Available Program Start-->
+				<div class="available p-3 row">
+					<h2>Available Programs</h2>
+					<p style="font-weight: bold">MBA</p>
+					<div class="progress progress_edit">
+						<div
+							class="progress-bar"
+							role="progressbar"
+							style="width: 5%"
+							aria-valuenow="25"
+							aria-valuemin="0"
+							aria-valuemax="100"
+						></div>
+					</div>
+					<div class="search-wrapper d-inline">
+						<input
+							style="font-size: larger"
+							class="search-input searchedit"
+							placeholder="Search courses, subjects, etc."
+						/>
+						<img class="search-pic1" src="img/search.jpg" alt="" />
+					</div>
+
+					<div class="accordion accordionEdit" id="accordionExample">
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingTwo">
+								<button
+									class="accordion-button collapsed"
+									type="button"
+									data-bs-toggle="collapse"
+									data-bs-target="#collapseTwo"
+									aria-expanded="false"
+									aria-controls="collapseTwo"
+								>
+									<strong>Others(1)</strong>
+								</button>
+							</h2>
+							<div
+								id="collapseTwo"
+								class="accordion-collapse collapse"
+								aria-labelledby="headingTwo"
+								data-bs-parent="#accordionExample"
+							>
+								<div class="accordion-body">
+									<a href="#" style="color: darkcyan; text-decoration: none"
+										>Executive MBA</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-3 bg-warning">
+				<!-- Add Section -->
+				<div class="m-3 bg-secondary">
+					<h1>
+						ADD is an older term for what is now known as the inattentive type
+						of ADHD.
+					</h1>
+				</div>
+			</div>
+		</main>
+
+		<!-- Pagination -->
+		<nav aria-label="..." id="pagination">
+			<ul class="pagination">
+				<li class="page-item disabled">
+					<a class="page-link" href="#" tabindex="-1">Previous</a>
+				</li>
+				<li class="page-item active"><a class="page-link" href="#">1</a></li>
+				<li class="page-item" aria-current="page">
+					<a class="page-link" href="#">2</a>
+				</li>
+				<li class="page-item"><a class="page-link" href="#">3</a></li>
+				<li class="page-item">
+					<a class="page-link" href="#">Next</a>
+				</li>
+			</ul>
+		</nav>
+
+		<!-- Footer -->
+		<footer class="bg-dark">
+			<div class="row ms-3 pt-4 pb-5 gx-0">
+				<div class="col-lg-8">
+					<div>
+						<a href="#" class="footer-menu">ABOUT</a>
+						<a href="#" class="footer-menu">CONTACT</a>
+						<a href="#" class="footer-menu">PRIVACY</a>
+						<a href="#" class="footer-menu">USERS</a>
+						<a href="#" class="footer-menu">COOKIES</a>
+					</div>
+					<div class="mt-4">
+						<small id="footer-small"
+							>© QS Quacquarelli Symonds Limited 1994 - 2021. All rights
+							reserved.
+						</small>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<!-- Social Icons -->
+					<div id="social-icon-bar">
+						<div>
+							<a href="" target="_blank"
+								><img src="img/footer/facebook.png" class="social-icon" alt=""
+							/></a>
+						</div>
+						<div>
+							<a href="" target="_blank"
+								><img src="img/footer/twitter.png" class="social-icon" alt=""
+							/></a>
+						</div>
+						<div>
+							<a href="#" target="_blank"
+								><img src="img/footer/linkedin.png" class="social-icon" alt=""
+							/></a>
+						</div>
+						<div>
+							<a href="#" target="_blank"
+								><img src="img/footer/youtube.png" class="social-icon" alt=""
+							/></a>
+						</div>
+						<div>
+							<a href="#" target="_blank"
+								><img src="img/footer/instagram.png" class="social-icon" alt=""
+							/></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
 </html>
