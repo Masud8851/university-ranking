@@ -1,184 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search University</title>
-    <!-- CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- CSS -->
-    <link rel="stylesheet" href="search-university.css">
-</head>
-<body>
-    <header class="header">
-        <!-- Nav -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="img/logo.svg" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Ranking</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Discover</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"  data-bs-toggle="dropdown" aria-expanded="false">
-                          Events
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" tabindex="-1">PREPARE</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">APPLY</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">CAREERS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">COMMUNITY</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search"   aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-              </div>
-            </div>
-        </nav>
-        <!-- Explore -->
-        <div class="align-items-center d-flex ps-4">
-            <div class="m-2">
-                <img src="img/cap.jpg" width="100" alt="">
-            </div>
-            <div class="m-3">
-                <h4>Hi there, let's get started!</h4>
-                <p>Explore <b> 250+ </b>schools and <b> 50,000+ </b>programs</p>
-            </div>
-        </div>
-    </header>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Search University</title>
+		<!-- CDN -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+		<!-- CSS -->
+		<link rel="stylesheet" href="search-university.css" />
+	</head>
+	<body>
+		<header class="header">
+			<!-- Nav -->
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#"><img src="img/logo.svg" alt="" /></a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#"
+									>Ranking</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Discover</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									id="navbarDropdown"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									Events
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" href="#">Action</a></li>
+									<li><a class="dropdown-item" href="#">Another action</a></li>
+									<li><hr class="dropdown-divider" /></li>
+									<li>
+										<a class="dropdown-item" href="#">Something else here</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#" tabindex="-1">PREPARE</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">APPLY</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">CAREERS</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">COMMUNITY</a>
+							</li>
+						</ul>
+						<form class="d-flex">
+							<input
+								class="form-control me-2"
+								type="search"
+								placeholder="Search"
+								aria-label="Search"
+							/>
+							<button class="btn btn-outline-success" type="submit">
+								Search
+							</button>
+						</form>
+					</div>
+				</div>
+			</nav>
+			<!-- Explore -->
+			<div class="align-items-center d-flex ps-4">
+				<div class="m-2">
+					<img src="img/cap.jpg" width="100" alt="" />
+				</div>
+				<div class="m-3">
+					<h4>Hi there, let's get started!</h4>
+					<p>Explore <b> 250+ </b>schools and <b> 50,000+ </b>programs</p>
+				</div>
+			</div>
+		</header>
 
-    <!-- Main Body -->
-    <main class="main-body">
-        <h4 class="main-body-sizing ps-4">Tell us your study plans</h4>
-        <div class="row main-body-sizing gx-5">
-            <div class="col-lg-7">
-                <!-- Study Level -->
-                <div class="mt-2 pt-5 p-4 bg-light">
-                    <h5>STUDY LEVEL</h5>
-                    <button type="button" class="btn btn-outline-primary">Bachelors</button>
-                    <button type="button" class="btn btn-outline-secondary">Masters</button>
-                    <button type="button" class="btn btn-outline-success">PHD</button>
-                </div>
-                <!-- Learning Types -->
-                <div class="mt-5 pt-5 p-4 bg-light">
-                    <h5>LEARNING TYPE</h5>
-                    <button type="button" class="btn btn-outline-primary me-1">Full-time</button>
-                    <button type="button" class="btn btn-outline-secondary me-1">Online</button>
-                </div>
-                <!-- Nationality -->
-                <div class="mt-5 pt-5 p-4 bg-light">
-                    <h5>NATIONALITY</h5>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                        <option>Bangladeshi</option>
-                        <option>Indian</option>
-                        <option>Japanis</option>
-                        <option>Pakistani</option>
-                    </select>
-                </div>
-                <!-- Destination -->
-                <div class="mt-5 pt-5 p-4 bg-light">
-                    <h5>DESTINATION</h5>
-                    <div class="p-2">
-                        <button type="button" class="btn btn-outline-primary me-1">USA</button>
-                        <button type="button" class="btn btn-outline-secondary me-1">UK</button>
-                        <button type="button" class="btn btn-outline-secondary me-1">Ausralia</button>
-                        <button type="button" class="btn btn-outline-secondary me-1">New Zealand</button>
-                    </div>
-                    <div class="ps-2">
-                        <button type="button" class="btn btn-outline-secondary me-2">European programs in English</button>
-                        <button type="button" class="btn btn-outline-secondary me-2">Canada</button>
-                        <button type="button" class="btn btn-outline-secondary me-2">All</button>
-                    </div>
-                </div>
-                <!-- Subject -->
-                <div class="mt-5 pt-5 p-4 bg-light">
-                    <h5>SUBJECT</h5>
-                    <small><i>Type subject area, program or keywords below to choose from the list:</i></small>
-                    <form class="d-flex">
-                        <input class="form-control" type="search" placeholder="Subject" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                </div>
-                <!-- Start Date -->
-                <div class="mt-5 pt-5 p-4 bg-light">
-                    <h5>START DATE</h5>
-                    <button type="button" class="btn btn-outline-primary me-1">2021</button>
-                    <button type="button" class="btn btn-outline-secondary me-1">2022</button>
-                    <button type="button" class="btn btn-outline-secondary me-1">2023</button>
-                    <button type="button" class="btn btn-outline-secondary me-1">2024</button>
-                </div>
-                <!-- Next Button -->
-                <button id="next" class="btn btn-outline-warning bg-warning mb-5 mt-3 " type="submit">Next</button>
-            </div>
-            <!-- Side Image -->
-            <div class="col-lg-5 pt-5" >
-                <img id="side-image" src="img/group-22.svg" alt="">
-            </div>
-        </div>
-    </main>
-    
-    <!-- Footer -->
-    <footer class="bg-dark">
-        <div class="row container pt-4 pb-5 ">
-            <div class="col-lg-8">
-                <div>
-                    <a href="#" class="footer-menu" >ABOUT</a>
-                    <a href="#" class="footer-menu" >CONTACT</a>
-                    <a href="#" class="footer-menu" >PRIVACY</a>
-                    <a href="#" class="footer-menu" >USERS</a>
-                    <a href="#" class="footer-menu" >COOKIES</a>
-                </div>
-                <div class="mt-4">
-                    <small id="footer-small">© QS Quacquarelli Symonds Limited 1994 - 2021. All rights reserved. </small>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <!-- Social Icons -->
-                <div id="social-icon-bar">
-                    <div >
-                        <a href="#" target="_blank"><img src="img/footer/facebook.png" class="social-icon" alt=""></a>
-                    </div>
-                    <div >
-                        <a href="#" target="_blank"><img src="img/footer/twitter.png" class="social-icon" alt=""></a>
-                    </div>
-                    <div >
-                        <a href="#" target="_blank"><img src="img/footer/linkedin.png" class="social-icon" alt=""></a>
-                    </div>
-                    <div >
-                        <a href="#" target="_blank"><img src="img/footer/youtube.png" class="social-icon" alt=""></a>
-                    </div>
-                    <div >
-                        <a href="#" target="_blank"><img src="img/footer/instagram.png" class="social-icon" alt=""></a>
-                    </div>
-                </div>
-            </div>            
-        </div>
-    </footer>
+		<!-- Main Body -->
+		<main class="main-body">
+			<h4 class="main-body-sizing ps-4">Tell us your study plans</h4>
+			<div class="row main-body-sizing gx-5">
+				<div class="col-lg-7">
+					<!-- Study Level -->
+					<div class="mt-2 pt-5 p-4 bg-light">
+						<h5>STUDY LEVEL</h5>
+						<button type="button" class="btn btn-outline-primary">
+							Bachelors
+						</button>
+						<button type="button" class="btn btn-outline-secondary">
+							Masters
+						</button>
+						<button type="button" class="btn btn-outline-success">PHD</button>
+					</div>
+					<!-- Learning Types -->
+					<div class="mt-5 pt-5 p-4 bg-light">
+						<h5>LEARNING TYPE</h5>
+						<button type="button" class="btn btn-outline-primary me-1">
+							Full-time
+						</button>
+						<button type="button" class="btn btn-outline-secondary me-1">
+							Online
+						</button>
+					</div>
+					<!-- Nationality -->
+					<div class="mt-5 pt-5 p-4 bg-light">
+						<h5>NATIONALITY</h5>
+						<select class="form-control" id="exampleFormControlSelect1">
+							<option>Bangladeshi</option>
+							<option>Indian</option>
+							<option>Japanis</option>
+							<option>Pakistani</option>
+						</select>
+					</div>
+					<!-- Destination -->
+					<div class="mt-5 pt-5 p-4 bg-light">
+						<h5>DESTINATION</h5>
+						<div class="p-2">
+							<button type="button" class="btn btn-outline-primary me-1">
+								USA
+							</button>
+							<button type="button" class="btn btn-outline-secondary me-1">
+								UK
+							</button>
+							<button type="button" class="btn btn-outline-secondary me-1">
+								Ausralia
+							</button>
+							<button type="button" class="btn btn-outline-secondary me-1">
+								New Zealand
+							</button>
+						</div>
+						<div class="ps-2">
+							<button type="button" class="btn btn-outline-secondary me-2">
+								European programs in English
+							</button>
+							<button type="button" class="btn btn-outline-secondary me-2">
+								Canada
+							</button>
+							<button type="button" class="btn btn-outline-secondary me-2">
+								All
+							</button>
+						</div>
+					</div>
+					<!-- Subject -->
+					<div class="mt-5 pt-5 p-4 bg-light">
+						<h5>SUBJECT</h5>
+						<small
+							><i
+								>Type subject area, program or keywords below to choose from the
+								list:</i
+							></small
+						>
+						<form class="d-flex">
+							<input
+								class="form-control"
+								type="search"
+								placeholder="Subject"
+								aria-label="Search"
+							/>
+							<button class="btn btn-outline-success" type="submit">
+								Search
+							</button>
+						</form>
+					</div>
+					<!-- Start Date -->
+					<div class="mt-5 pt-5 p-4 bg-light">
+						<h5>START DATE</h5>
+						<button type="button" class="btn btn-outline-primary me-1">
+							2021
+						</button>
+						<button type="button" class="btn btn-outline-secondary me-1">
+							2022
+						</button>
+						<button type="button" class="btn btn-outline-secondary me-1">
+							2023
+						</button>
+						<button type="button" class="btn btn-outline-secondary me-1">
+							2024
+						</button>
+					</div>
+					<!-- Next Button -->
+					<button
+						id="next"
+						class="btn btn-outline-warning bg-warning mb-5 mt-3"
+						type="submit"
+					>
+						Next
+					</button>
+				</div>
+				<!-- Side Image -->
+				<div class="col-lg-5 pt-5">
+					<img id="side-image" src="img/group-22.svg" alt="" />
+				</div>
+			</div>
+		</main>
 
-    <!-- JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+		<!-- Footer -->
+		<footer class="bg-dark">
+			<div class="row ms-3 pt-4 pb-5 gx-0">
+				<div class="col-lg-8">
+					<div>
+						<a href="#" class="footer-menu">ABOUT</a>
+						<a href="#" class="footer-menu">CONTACT</a>
+						<a href="#" class="footer-menu">PRIVACY</a>
+						<a href="#" class="footer-menu">USERS</a>
+						<a href="#" class="footer-menu">COOKIES</a>
+					</div>
+					<div class="mt-4">
+						<small id="footer-small"
+							>© QS Quacquarelli Symonds Limited 1994 - 2021. All rights
+							reserved.
+						</small>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<!-- Social Icons -->
+					<div id="social-icon-bar">
+						<div>
+							<a href="" target="_blank"
+								><img src="img/footer/facebook.png" class="social-icon" alt=""
+							/></a>
+						</div>
+						<div>
+							<a href="" target="_blank"
+								><img src="img/footer/twitter.png" class="social-icon" alt=""
+							/></a>
+						</div>
+						<div>
+							<a href="#" target="_blank"
+								><img src="img/footer/linkedin.png" class="social-icon" alt=""
+							/></a>
+						</div>
+						<div>
+							<a href="#" target="_blank"
+								><img src="img/footer/youtube.png" class="social-icon" alt=""
+							/></a>
+						</div>
+						<div>
+							<a href="#" target="_blank"
+								><img src="img/footer/instagram.png" class="social-icon" alt=""
+							/></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- JS -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
 </html>
