@@ -30,6 +30,7 @@ main{
 }
 
 
+
 /* Footer */
 .footer-menu{
     font-size: 13px;
@@ -53,6 +54,7 @@ main{
     grid-template-columns: repeat(6,1fr);
     margin: 0;
 }
+
 
 
 
