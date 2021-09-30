@@ -13,11 +13,6 @@
 			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
 			crossorigin="anonymous"
 		/>
-		<!-- ICON -->
-		<script
-			src="https://kit.fontawesome.com/ce91928e05.js"
-			crossorigin="anonymous"
-		></script>
 	</head>
 
 	<body>
@@ -96,24 +91,6 @@
 
 		<!-- Main Body -->
 		<main class="main-body">
-			<!-- Header Breadcrumb -->
-			<nav aria-label="breadcrumb" class="ps-2 pe-2">
-				<ol class="breadcrumb">
-					<li class="breadcrumb-item active" aria-current="page">
-						<a href="#">Home</a>
-					</li>
-					<li class="breadcrumb-item active" aria-current="page">
-						<a href="#">Education</a>
-					</li>
-					<li class="breadcrumb-item active" aria-current="page">
-						<a href="#">Global University</a>
-					</li>
-					<li class="breadcrumb-item active" aria-current="page">
-						<a href="#">Best Global Universities Rank...</a>
-					</li>
-				</ol>
-			</nav>
-
 			<!-- Header Brief -->
 			<h1 class="fw-bold fs-1 ps-2 pe-2">
 				2021 Best Global Universities Rankings
@@ -181,7 +158,7 @@
 				<div><h6>1678 Schools</h6></div>
 				<span id="rankScale"> </span>
 				<div id="sortBy">
-					<div class="me-2"><h6>Short By:</h6></div>
+					<div class="me-2"><h6>Sort By:</h6></div>
 					<div>
 						<select
 							class="form-select"
@@ -203,9 +180,7 @@
 							id="filter-btn"
 							type="button"
 							class="btn btn-primary me-2"
-							data-bs-toggle="modal"
-							data-bs-target="#exampleModal"
-							onclick="filter()"
+							onclick="filter(1)"
 						>
 							Filter
 						</button>
