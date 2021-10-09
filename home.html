@@ -186,19 +186,14 @@
 						</button>
 						<!-- OnClick Filter -->
 						<script>
-							// const filter = () => {
-							// 	document.getElementById("left-according").style.display =
-							// 		"flex";
-							// 	document.getElementById("left-according").style.flexDirection =
-							// 		"column";
-							// };
 							function filter() {
 								var x = document.getElementById("left-according");
-								if (x.style.display === "none") {
-									x.style.display = "flex";
-									x.style.flexDirection = "column";
+								if (x.classList.contains("d-block")) {
+									x.classList.remove("d-block");
+									x.classList.add("d-none");
 								} else {
-									x.style.display = "none";
+									x.classList.add("d-block");
+									x.classList.remove("d-none");
 								}
 							}
 						</script>
@@ -308,7 +303,7 @@
 			<div class="ps-2 pe-2 features-area">
 				<div class="row">
 					<!--Left According-->
-					<div class="col-lg-2" id="left-according">
+					<div class="col-lg-2 d-lg-block d-none" id="left-according">
 						<div>
 							<div class="accordion" id="accordionExample">
 								<div class="accordion-item">
