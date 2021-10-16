@@ -175,26 +175,46 @@
 				<div class="aboutuni p-3">
 					<h2>About</h2>
 					<p>
-						<a href="#">Thammasat University</a> is the second oldest, leading
-						comprehensive university in Thailand. Inaugurated in 1934 with
-						social science and humanities to serve society’s thirst for modern
-						knowledge. Thammasat, thus, has been known as “the university for
-						the people”. From the mid-1980s, TU has expanded to cover most
-						disciplines, including science, technology, and health, so as to
-						contribute more to society. Apart from teaching, Thammasat is an
-						internationallyrenowned university, which emphasizes research and
-						innovation. With the vision “Grooming the nextgeneration of leaders
-						for Thailand and international communities”, Thammasat is bringing
-						together students of all backgrounds to maximize their potential and
-						be capable, innovative, caring and want to serve society. Through
-						our multi-dimensional education, Thammasat has produced graduates
-						with high skills, knowledge and adaptability, making Thammasat the
-						university with highest employability rate and high employers’
-						satisfaction in Thailand. Additional requirements include letters of
-						recommendation from two teachers (one math/science, one humanities),
-						plus extra...
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+						imperdiet, nulla et dictum interdum, nisi lorem egestas vitae
+						scel<span id="dots">...</span
+						><span id="more"
+							>erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices
+							nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue
+							ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum
+							dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare
+							turpis. Donec vitae dui eget tellus gravida venenatis. Integer
+							fringilla congue eros non fermentum. Sed dapibus pulvinar nibh
+							tempor porta.</span
+						>
 					</p>
-					<a style="color: #0a66c2">Read More</a>
+					<a
+						onclick="myFunction()"
+						style="
+							color: blue;
+							background-color: rgb(160, 158, 158);
+							padding: 10px;
+						"
+						id="myBtn"
+						>Read more</a
+					>
+					<script>
+						function myFunction() {
+							var dots = document.getElementById("dots");
+							var moreText = document.getElementById("more");
+							var btnText = document.getElementById("myBtn");
+
+							if (dots.style.display === "none") {
+								dots.style.display = "inline";
+								btnText.innerHTML = "Read more";
+								moreText.style.display = "none";
+							} else {
+								dots.style.display = "none";
+								btnText.innerHTML = "Read less";
+								moreText.style.display = "inline";
+							}
+						}
+					</script>
 				</div>
 
 				<!--Available Program Start-->
@@ -279,56 +299,83 @@
 			</ul>
 		</nav>
 
-		<!-- Footer -->
-		<footer class="bg-dark">
-			<div class="row ms-3 pt-4 pb-5 gx-0">
-				<div class="col-lg-8">
-					<div>
-						<a href="#" class="footer-menu">ABOUT</a>
-						<a href="#" class="footer-menu">CONTACT</a>
-						<a href="#" class="footer-menu">PRIVACY</a>
-						<a href="#" class="footer-menu">USERS</a>
-						<a href="#" class="footer-menu">COOKIES</a>
-					</div>
-					<div class="mt-4">
-						<small id="footer-small"
-							>© QS Quacquarelli Symonds Limited 1994 - 2021. All rights
-							reserved.
-						</small>
-					</div>
+		<!--Footer Start-->
+		<footer class="bg-dark mt-5">
+			<div class="row container p-4">
+				<div class="col-6">
+					<ul class="list-group list-group-horizontal-lg">
+						<li class="list-group-item me-auto bg-dark text-white fs-6">
+							<a href="aboutUs.html" style="color: white; text-decoration: none"
+								>ABOUT</a
+							>
+						</li>
+						<li class="list-group-item me-auto bg-dark text-white fs-6">
+							<a
+								href="contactPage.html"
+								style="color: white; text-decoration: none"
+								>CONTACT</a
+							>
+						</li>
+						<li class="list-group-item me-auto bg-dark text-white fs-6">
+							<a href="privacy.html" style="color: white; text-decoration: none"
+								>PRIVACY</a
+							>
+						</li>
+						<li class="list-group-item me-auto bg-dark text-white fs-6">
+							<a href="terms.html" style="color: white; text-decoration: none"
+								>CONDITIONS</a
+							>
+						</li>
+					</ul>
 				</div>
-				<div class="col-lg-4">
-					<!-- Social Icons -->
-					<div id="social-icon-bar">
-						<div>
-							<a href="" target="_blank"
-								><img src="img/footer/facebook.png" class="social-icon" alt=""
-							/></a>
+				<div class="col-6">
+					<ul class="list-group list-group-horizontal-lg float-end">
+						<li class="list-group-item bg-dark text-white fs-6">FACEBOOK</li>
+						<li class="list-group-item bg-dark text-white fs-6">INSTAGRAM</li>
+						<li class="list-group-item bg-dark text-white fs-6">TWITTER</li>
+						<li class="list-group-item bg-dark text-white fs-6">LINKEDIN</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row container">
+				<p class="text-white text-center p-3">
+					© All copy rights reserved by istdio.com
+				</p>
+			</div>
+		</footer>
+		<!--Footer End-->
+
+		<!--Underfooter Start-->
+
+		<footer
+			id="underfooter"
+			style="background: #191919; padding: 15px 0; color: #777; font-size: 12px"
+		>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<span
+								>112 110 st Unit 12, SK S7N 1R9<br />
+								Saskatoon, Canada</span
+							>
 						</div>
-						<div>
-							<a href="" target="_blank"
-								><img src="img/footer/twitter.png" class="social-icon" alt=""
-							/></a>
-						</div>
-						<div>
-							<a href="#" target="_blank"
-								><img src="img/footer/linkedin.png" class="social-icon" alt=""
-							/></a>
-						</div>
-						<div>
-							<a href="#" target="_blank"
-								><img src="img/footer/youtube.png" class="social-icon" alt=""
-							/></a>
-						</div>
-						<div>
-							<a href="#" target="_blank"
-								><img src="img/footer/instagram.png" class="social-icon" alt=""
-							/></a>
+					</div>
+
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="text-right">
+								Copyright © 2021,
+								<span><a href="/">bangladesh@gmail.com</a></span
+								><br />
+							</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</footer>
+
+		<!--Underfooter End-->
 
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 	</body>
