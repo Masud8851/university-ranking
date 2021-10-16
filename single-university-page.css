@@ -110,7 +110,6 @@ p{
 }
 .filter_page2{
     margin-top: 30px;
-    border-bottom: 1px solid grey;
 }
 .btnstudy1{
     text-transform: uppercase;
@@ -282,4 +281,10 @@ button.btn.btn-light.btnstudy1:hover {
     
 }
 
+/* Read More */
 #more {display: none;}
+
+/* google-adds */
+.google-adds{
+    background-color: lavender;
+}
